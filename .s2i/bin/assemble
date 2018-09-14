@@ -6,3 +6,6 @@ curl -o wildfly.tar.gz http://download.jboss.org/wildfly/${WFLY_VERSION}/servlet
 tar -xf wildfly.tar.gz
 rm wildfly.tar.gz
 mv wildfly-servlet-${WFLY_VERSION} /home/jboss/wildfly
+
+chgrp -R 0 /home/jboss/wildfly
+chmod -R g=u /home/jboss/wildfly
