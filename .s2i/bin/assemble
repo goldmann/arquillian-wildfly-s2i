@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WFLY_VERSION="14.0.1.Final"
+WFLY_VERSION="13.0.0.Final"
 
 curl -o wildfly.tar.gz http://download.jboss.org/wildfly/${WFLY_VERSION}/servlet/wildfly-servlet-${WFLY_VERSION}.tar.gz
 #curl -o wildfly.tar.gz http://download.jboss.org/wildfly/${WFLY_VERSION}/wildfly-${WFLY_VERSION}.tar.gz
