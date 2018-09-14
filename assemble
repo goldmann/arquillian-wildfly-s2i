@@ -1,0 +1,8 @@
+#!/bin/bash
+
+WFLY_VERSION="14.0.1.Final"
+
+curl -o wildfly.tar.gz http://download.jboss.org/wildfly/${WFLY_VERSION}/servlet/wildfly-servlet-${WFLY_VERSION}.tar.gz
+tar -xf wildfly.tar.gz
+rm wildfly.tar.gz
+mv wildfly-servlet-${WFLY_VERSION} /home/jboss/wildfly
